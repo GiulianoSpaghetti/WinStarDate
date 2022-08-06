@@ -14,7 +14,7 @@
         </Grid.Background>
         <TextBlock x:Name="tbdata" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-0.9,-2.45"  Foreground="White" Text="Inserisci la data: " />
         <TextBox x:Name="data" HorizontalAlignment="Left" Margin="138,3,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="521"/>
-        <Button x:Name="calcola" Content="Calcola" Margin="138,41,0,0" VerticalAlignment="Top" Click="calcola_Click" Width="521"/>
+        <Button x:Name="calcola" Content="Calcola" Margin="138,41,0,0" VerticalAlignment="Top" Click="calcola_Click" Width="521" Foreground="White"/>
         <TextBlock x:Name="risultato" HorizontalAlignment="Left" Margin="153,77,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Foreground="White"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="218,121,0,0" TextWrapping="Wrap" Text="Creato da Giulio Sorrentino: un italo-napoletano di merda!" VerticalAlignment="Top"  Foreground="White"/>
     </Grid>
