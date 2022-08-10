@@ -29,15 +29,11 @@ namespace WinStarDate
 
         private void calcola_Click(object sender, RoutedEventArgs e)
         {
-            DateTime d;
-            try
-            {
-                d = DateTime.Parse(data.Text);
-            } catch (System.FormatException ex) {
-                risultato.Text = "La data non è valida";
-                return;
-            }
-            risultato.Text = d.ToUniversalTime().ToString("yy") + d.ToUniversalTime().ToString("mm") + "." + d.ToUniversalTime().ToString("dd");
+            int i = int.Parse(data.Date.Date.ToUniversalTime().ToString("dd")) + 1;
+            String s = "" + i;
+            if (s.Length == 1)
+                s = "0" + s;
+            risultato.Text = data.Date.Date.ToUniversalTime().ToString("yy") + data.Date.Date.ToUniversalTime().ToString("MM") + "." + s;
         }
     }
 }
