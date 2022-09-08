@@ -7,7 +7,7 @@ Calcola la data stellare partendo da una data specifica
 
 Installa visual studio 2022, scarica il progetto usando git selezionando download from existing git repository e quindi compilalo.
 
-# Donations
+# Donazioni
 
 [![paypal](https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H4ZHTFRCETWXG)
 
