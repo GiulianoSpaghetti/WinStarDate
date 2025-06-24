@@ -1,11 +1,11 @@
 # WinStarDate
 Calcola la data stellare partendo da una data specifica
 
-# Come installare
+## Come installare
 
-# The old fashion compiled way
+Perché installare un'app quando ne esiste una fatta con tecnologia alternativa che gira direttamente nel browser?
 
-Installa visual studio 2022, scarica il progetto usando git selezionando download from existing git repository e quindi compilalo.
+http://numeronesoft.ddns.net:8080/apps/winstardate/
 
 # Donazione
 
